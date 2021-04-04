@@ -1,0 +1,82 @@
+/* Navigation  */
+#navbar{
+    flex-direction: column;
+  
+}
+
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 50px
+}
+
+/* home section */
+#home{
+  
+  /* height: 529px; */
+  height: 325px;
+  /* flex-direction: column; */
+  padding: 146px 9px;
+  padding-bottom: 67px 
+
+}
+#home::before{
+  
+  height: 512px;
+  /* flex-direction: column; */
+ 
+
+}
+
+#home p{
+    font-size: 13px;
+}
+
+#services .box img{
+       height: 230px;
+}
+
+/* services section */
+#services{
+    flex-direction: column;
+}
+#services .box{
+   
+}
+
+
+/* client section */
+#clients{
+    /* overflow: hidden; clients section me utna hi clients  dikhe ga jitna aa rha hai (now sides se overflow nhi hoga ) */
+    flex-wrap: wrap;
+}
+
+#clients img{
+    /* height: auto; */
+    width: 62px;
+    height:54px;
+    padding: 1px;
+}
+
+
+/* contact section */
+#contact-box form {
+    width: 86%;
+}
+
+
+
+/* footer */
+
+
+
+/* utility classes */
+.h-primary{
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 12px;
+    padding: 5px 15px;
+}
